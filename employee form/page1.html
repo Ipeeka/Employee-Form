@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./Component.css" />
+    <style>
+      .prvbutton {
+        width: 50%;
+      }
+      /* .btn {
+        margin-right: 38px;
+      } */
+      .heading {
+        padding: 0px 6px 38px 3px;
+        text-align: left;
+        margin-top: 72px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="form-vertical" action="/action_page.php">
+      <div class="container">
+        <div class="form-row">
+          <div class="form-group">
+            <div>
+              <h2 class="heading">Job information</h2>
+            </div>
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label for="inputName lab">Title</label>
+                <input type="text" class="form-control" id="inputName" />
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label for="inputdrpn lab">Department</label>
+                <select type="dropdown" class="form-control" id="inputdrpn">
+                  <option value="plsselect">Please Select</option>
+                  <option value="marketing">Marketing</option>
+                  <option value="hr">HR</option>
+                  <option value="finance">Finance</option>
+                  <option value="sales">Sales</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label for="inputdrpn lab">Working Type</label>
+                <select type="dropdown" class="form-control" id="inputdrpn">
+                  <option value="plselect">Please Select</option>
+                  <option value="fulltime">Full Time</option>
+                  <option value="parttime">Part Time</option>
+                  <option value="remote">Remote</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="form-group col-md-6">
+                <label for="inputName">Start Date</label>
+                <input
+                  type="date"
+                  class="form-control"
+                  placeholder="MM DD YYYY"
+                />
+                <span for="inputName">Date</span>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-5 inputxt prvbutton">
+                <a class="btn btn-back" type="submit" href="./index.html"
+                  >Previous</a
+                >
+              </div>
+              <div class="col-md-4 inputxt nxtbutton">
+                <a class="btn btn-primary btn" type="submit" href="./page2.html"
+                  >Next</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

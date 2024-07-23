@@ -1,0 +1,64 @@
+.formheader {
+    text-align: center;
+    margin: 0;
+    font-weight: 600;
+    line-height: 1.45;
+    box-sizing: border-box;
+    padding: 25px 81px 24px 4px;
+    font-size: 2em !important;
+    font-family: Inter, sans-serif;
+  }
+  .lastname {
+    margin-top: 25px;
+  }
+  .heading {
+    box-sizing: border-box;
+    margin-top: 25px;
+    text-align: left;
+    /* margin-top: 15px; */
+    font-family: Inter, sans-serif;
+    font-size: 30px;
+  }
+  .container {
+    padding: 0px 100px 0px 133px;
+    /* text-align: center; */
+  } 
+  .form-control {
+    height: 45px;
+  }
+  
+  .button {
+    padding: 10px;
+    margin: 18px 0px 196px 426px;
+    background-color: #2e69ff;
+    border-color: #2e69ff;
+    color: #fff;
+  }
+  
+  
+  .lab {
+    margin-bottom: 12px;
+  }
+  .nxtbutton {
+    text-align: right;
+    margin-right: 0px;
+  }
+  .sbutton {
+    text-align: right;
+  }
+  
+  .btn-back {
+    background-color: #e5e7f2;
+    border-color: #e5e7f2;
+    color: #2c3345;
+    font-size: 1em;
+  }
+  .btn-submit {
+    background-color: #16aa52;
+    border-color: #18bd5b;
+    color: #fff;
+    
+   
+    /* margin-right: 99px; */
+  }
+  
